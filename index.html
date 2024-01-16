@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  framework for building responsive, mobile-first sites -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center details">WEATHER</h1>
+        <form class="my-4 text-center text-muted">
+            <label for="city">write down here name of a city</label>
+            <input type="text" name="city" class="form-control p-4">
+        </form>
+        <div class="card shadow-lg rounded">
+            <div class="text-muted text-center details">
+                <img class="card-img-top" src="./img/dayimage.png" alt="">
+                <h5 class="my-3">Name of City</h5>
+                <div class="my-3">current weather</div>
+                <div class="display-4 my-4">
+                    <span></span>
+                    <span>&deg;C</span>
+                </div>
+            </div> <!-- card-text box -->
+        </div> <!-- card box -->
+    </div> <!-- container -->
+</body>
+</html>
+
+<!-- <div class="card shadow-lg rounded">
+        <div class="text-muted text-center details">
+          <img class="card-img-top" src="./img/dayimage.png" alt="" />
+          <h5 class="my-3">도시이름</h5>
+          <div class="my-3">날씨</div>
+          <div class="display-4 my-4">
+            <span>25</span>
+            <span>&deg;C</span>
+          </div>
+        </div>
+      </div> -->
