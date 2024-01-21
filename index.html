@@ -16,12 +16,12 @@
 </head>
 <body>
     <div class="container my-5 mx-auto">
-        <h1 class="text-muted text-center details">WEATHER</h1>
+        <h1 class="text-muted text-center">WEATHER</h1>
         <form class="my-4 text-center text-muted">
             <label for="city">write down here name of a city</label>
             <input type="text" name="city" class="form-control p-4">
         </form>
-        <div class="card shadow-lg rounded">
+        <div class="card shadow-lg rounded d-none">
             <div class="text-muted text-center details">
                 <img class="card-img-top" src="./img/dayimage.png" alt="">
                 <h5 class="my-3">Name of City</h5>
@@ -34,16 +34,8 @@
         </div> <!-- card box -->
     </div> <!-- container -->
 </body>
+<script type="text/javascript" src="apikey.js"></script>
+<script src="./scripts/forecast.js"></script>
+<!-- <script src="./scripts/async.js"></script> -->
+<script src="./scripts/app.js"></script>
 </html>
-
-<!-- <div class="card shadow-lg rounded">
-        <div class="text-muted text-center details">
-          <img class="card-img-top" src="./img/dayimage.png" alt="" />
-          <h5 class="my-3">도시이름</h5>
-          <div class="my-3">날씨</div>
-          <div class="display-4 my-4">
-            <span>25</span>
-            <span>&deg;C</span>
-          </div>
-        </div>
-      </div> -->
