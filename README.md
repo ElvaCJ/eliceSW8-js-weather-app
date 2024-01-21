@@ -2,7 +2,7 @@
 # Weather Application with JavaScript
 
 
-##Intro
+## Intro
 
 * This project was completed by taking a course of "Elice SW Engineer" as a 8th member. 
 * The point of starting this project is for learning "how to use api key"
